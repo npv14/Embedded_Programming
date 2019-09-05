@@ -1,0 +1,43 @@
+@ Authors
+	Nam Vu 54781288
+	Sunesh Parbhu 88087862
+@ Date
+	October 2018
+
+@ Brief
+	This is a pong based game to be played between two UCFK4 boards.
+	
+
+@ Instructions
+
+	Step 1:
+		Load game.c onto both boards via terminal typing 'make program' in the 
+		game.c directory.
+
+	Step 2:
+		Push navswitch in as if it were a push button ready up your board.
+		Three LEDs on the display will appear, these act as your paddle.
+		To move paddles left/right, push navswitch in the left/right direction.
+
+	Step 3: 
+		Once board is readied up and other player is ready, pull navswitch towards
+                yourself to release ball. 
+		Note, either player can release ball, so communicate such that only one 
+		ball is released.
+
+	Step 4: 
+		Play game by game by hitting the ball back and forth between boards.
+		When a player misses the ball, they have lost.
+		This will prompt a message "Winner" or "Loser" on each board.
+
+	Step 5: 
+		For rematch, reset the board.
+
+	*Tips:
+		While playing, if the ball gets lost in transmission between the boards, 
+		simply pull downwards on the navswitch to release another ball and continue
+		as usual.
+	
+ 
+
+
